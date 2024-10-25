@@ -106,13 +106,13 @@ span.arroba{
     letter-spacing: -2;
 }
 section {
- 
+    height: 80vh;
     display: flex;
     flex-direction: column; /* Cambia a 'row' si prefieres que estén en una fila */
     align-items: center; /* Centra horizontalmente */
     justify-content: center; /* Centra verticalmente */
     text-align: center; /* Alinea el texto al centro */
-    padding: 50px;
+   
    
 }
 section ul{
