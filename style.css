@@ -210,7 +210,7 @@ img .hoja{text-align: center;}
 
 }
     nav ul {
-        
+        padding: 5px 10px; /* Espaciado interno para los enlaces */
         list-style-type: none; /* Elimina los puntos de la lista */
        font-size: 12px;
         display: flex; /* Disposición horizontal por defecto */
@@ -220,7 +220,7 @@ img .hoja{text-align: center;}
         text-align: center;
     }
     nav li{
-        margin: 10px 0; /* Espaciado entre los elementos en vertical */
+        margin: 12px 0; /* Espaciado entre los elementos en vertical */
     }
     nav ul li {
         display: block;
