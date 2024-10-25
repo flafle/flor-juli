@@ -24,11 +24,10 @@ body {
     height: 100vh;
     display: flex;
     align-items: end;
-    background:  url(./assets/FyJ\ 0051.jpg);
-    background-size: cover;
-    background-position: center;
+    background:  url(./assets/FyJ\ 0051q.jpg);
+    background-size:cover;
+    background-position:center;
     background-repeat: no-repeat;
-
     color: wheat;
 }
 
@@ -62,7 +61,6 @@ nav {
     background-color: #909365;
     color: #fff;
     opacity: 0.8;
-    
     padding: 10px
 }
 
@@ -108,13 +106,13 @@ span.arroba{
     letter-spacing: -2;
 }
 section {
-    
+ 
     display: flex;
     flex-direction: column; /* Cambia a 'row' si prefieres que estén en una fila */
     align-items: center; /* Centra horizontalmente */
     justify-content: center; /* Centra verticalmente */
     text-align: center; /* Alinea el texto al centro */
-    padding: 20px;
+    padding: 50px;
    
 }
 section ul{
@@ -159,7 +157,6 @@ button {
     display: flex;
     align-items: center;
     padding: 10px 10px;
-
     background-color: #E7B800;
     color: white;
     border: none;
@@ -212,7 +209,7 @@ img .hoja{text-align: center;}
     nav ul {
         padding: 5px 10px; /* Espaciado interno para los enlaces */
         list-style-type: none; /* Elimina los puntos de la lista */
-       font-size: 10px;
+        font-size: 10px;
         display: flex; /* Disposición horizontal por defecto */
         justify-content: center; /* Centra los elementos en la navbar */
         flex-direction: row; 
