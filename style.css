@@ -106,8 +106,12 @@ nav a {
 span.arroba{
     letter-spacing: -2;
 }
+
+/* Con el Heigth el espacio entre secciones! revisar acá cualquier cosa */
+   
+
 section {
-    height: 80vh;
+    height: 100vh;
     display: flex;
     flex-direction: column; /* Cambia a 'row' si prefieres que estén en una fila */
     align-items: center; /* Centra horizontalmente */
