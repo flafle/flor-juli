@@ -155,19 +155,6 @@ img .hoja{text-align: center;}
     }
 }
 
-@media (max-width:1440px) {
-    nav ul li {
-        display: block;
-        margin: 10px 0;
-    }
-    nav ul {
-        float: none;
-        text-align: center;
-        color: #000;
-    }
 
-  
-    
 
-}
 
