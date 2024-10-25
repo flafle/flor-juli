@@ -38,7 +38,7 @@ body {
     width: 50%;
 }
 
-p.floju{
+.floju{
     margin: 10px;
     padding: 10px;
     background-color: #909365;
@@ -212,7 +212,7 @@ img .hoja{text-align: center;}
     nav ul {
         padding: 5px 10px; /* Espaciado interno para los enlaces */
         list-style-type: none; /* Elimina los puntos de la lista */
-       font-size: 12px;
+       font-size: 10px;
         display: flex; /* Disposición horizontal por defecto */
         justify-content: center; /* Centra los elementos en la navbar */
         flex-direction: row; 
