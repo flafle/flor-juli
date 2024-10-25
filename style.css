@@ -58,14 +58,14 @@ p{
     /* Cuidado que esto es lo que le da a cada parrafo el alto*/
     font-size: 20px;
 }
-li.alias{
-    letter-spacing: 2px;
-}
+
 .alegria{
     font-family: "Plus Jakarta Sans";
     font-style: italic;
 }
-
+span.alegria{
+    font-family: "Poppins";
+}
 .alias , .nombre{
     font-family: "Poppins";
     font-style: italic;
@@ -118,13 +118,6 @@ nav a {
    
 }
 
-span.arroba{
-    letter-spacing: -2;
-}
-span.alegria{
-    letter-spacing: 2px;
-}
-
 
 .container-imagen{
     position: relative;
@@ -135,6 +128,27 @@ span.alegria{
 .container-imagen img {
     max-width: 30%; /* Ajusta la imagen al contenedor */
     height: auto; /* Mantiene la proporción */
+}
+.container-imagen2{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: last baseline;
+}
+
+.container-imagen2 img{
+    max-width: 30%;
+}
+
+.container-imagen3{
+    position: relative;
+    display: flex;
+    justify-content: end;
+
+}
+
+.container-imagen3 img{
+    max-width: 20%;
 }
 
 
