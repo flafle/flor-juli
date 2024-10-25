@@ -255,29 +255,33 @@ img .hoja{text-align: center;}
 
 
 /* Responsividad */
-@media (max-width: 400px) {
-   
-
-}
+@media (max-width: 600px) {
+    
     nav ul {
-        padding: 5px 10px; /* Espaciado interno para los enlaces */
-        list-style-type: none; /* Elimina los puntos de la lista */
         font-size: 10px;
-        display: flex; /* Disposición horizontal por defecto */
+        list-style-type: none; /* Elimina los puntos de la lista */
+        padding: 0; /* Elimina el padding */
+        margin: 0; /* Elimina el margen */
+        display: flex; /* Cambia a flexbox para una disposición horizontal */
         justify-content: center; /* Centra los elementos en la navbar */
-        flex-direction: row; 
-        float: none;
-        text-align: center;
+        list-style: none;
+        
+    }
+    
+    nav ul li {
+        display: inline;
+        margin-left: 10px;
     }
     nav li{
-        margin: 12px 0; /* Espaciado entre los elementos en vertical */
+        margin: 0 5px; /* Espaciado entre los elementos de la lista */
     }
-    nav ul li {
-        display: block;
-        margin: 10px 0;
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        padding: 5px 10px; /* Espaciado interno para los enlaces */
+       
     }
-
-
+   
     .share-button {
         font-size: 14px; /* Tamaño de fuente más pequeño en pantallas pequeñas */
     }
@@ -290,6 +294,7 @@ img .hoja{text-align: center;}
 
 button:hover {
     background-color: #4a4b26;
+}
 }
 
 @media (max-width:1440px) {
