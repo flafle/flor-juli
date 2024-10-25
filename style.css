@@ -210,8 +210,12 @@ img .hoja{text-align: center;}
 
 }
     nav ul {
+        
+        list-style-type: none; /* Elimina los puntos de la lista */
+       font-size: 12px;
+        display: flex; /* Disposición horizontal por defecto */
+        justify-content: center; /* Centra los elementos en la navbar */
         flex-direction: row; 
-        align-items: center; /* Centra los elementos verticalmente */
         float: none;
         text-align: center;
     }
