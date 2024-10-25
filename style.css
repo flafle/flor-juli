@@ -52,7 +52,9 @@ p{
     margin-bottom: 20px;
     font-size: 20px;
 }
-
+li.alias{
+    letter-spacing: 2px;
+}
 .alegria{
     font-family: "Plus Jakarta Sans";
     font-style: italic;
@@ -112,6 +114,9 @@ nav a {
 
 span.arroba{
     letter-spacing: -2;
+}
+span.alegria{
+    letter-spacing: 2px;
 }
 
 /* Con el Heigth el espacio entre secciones! revisar acá cualquier cosa */
