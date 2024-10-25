@@ -19,8 +19,6 @@ body {
     background-image: url(./assets/fondo\ pagina.jpg);
     
 }
-
-
 .wrap{
     width: 100vw;
     height: 100vh;
@@ -30,13 +28,16 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+
     color: wheat;
 }
+
 .wrap-text{
     margin-top: 2rem;
     display: flex;
     width: 50%;
 }
+
 p.floju{
     margin: 10px;
     padding: 10px;
@@ -45,6 +46,11 @@ p.floju{
     font-style: italic;    
     }
 h2{
+    font-style: italic;
+}
+
+.alegria{
+    font-family: "Plus Jakarta Sans";
     font-style: italic;
 }
 
@@ -87,19 +93,33 @@ nav a {
     color: #fff;
     text-decoration: none;
 }
+
 span.arroba{
     letter-spacing: -2;
 }
 section {
-    padding: 60px 0;
-    text-align: center;
-    border-bottom: 1px solid #ccc;
-    font-size: 40px;
+    
+    display: flex;
+    flex-direction: column; /* Cambia a 'row' si prefieres que estén en una fila */
+    align-items: center; /* Centra horizontalmente */
+    justify-content: center; /* Centra verticalmente */
+    text-align: center; /* Alinea el texto al centro */
+    padding: 20px;
+   
 }
-
+section ul{
+    list-style: none;
+    text-decoration: none;
+    
+}
+.text-container{
+    margin-bottom: 10px; /* Espacio entre el texto y el botón */
+ 
+}
 section h2 {
     margin-bottom: 10px;
 }
+
 .seccion2, .seccion4{
     font-family: "plus jakarta sans";
     
@@ -114,35 +134,66 @@ section h2 {
 }
 
 button {
-    margin-top: 2rem;
-    padding: 40px 40px;
-    background-color: #E7B800;
+
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    
     font-size: 40px;
 }
 
-button:hover {
+.seccion3{
+    text-align: center;
+}
+.share-button {
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+
+    background-color: #E7B800;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.share-button:hover {
     background-color: #4a4b26;
 }
+
+.icon {
+    
+    width: 34px; /* Ajusta el tamaño del ícono aquí */
+    height: 34px;
+   
+    margin-right: 10px; /* Espacio entre el ícono y el texto */
+}
+
+
 
 footer {
     text-align: center;
     padding: 20px 0;
-    background-color: #a2a575;
-    color: #fff;
+    background-color: #F9FADD;
+    color: #909365;
 }
 .pie{
-    font-size: 40px;
+    font-size: 30px;
     display: flex;
     align-items: end;
     justify-content: end;
    
 }
 img .hoja{text-align: center;}
+
+
+
+
+
+
+
+
 /* Responsividad */
 @media (max-width: 400px) {
     nav ul {
@@ -153,6 +204,20 @@ img .hoja{text-align: center;}
         display: block;
         margin: 10px 0;
     }
+}
+
+    .share-button {
+        font-size: 14px; /* Tamaño de fuente más pequeño en pantallas pequeñas */
+    }
+
+    .icon {
+        width: 20px; /* Tamaño del ícono en pantallas pequeñas */
+        height: 20px;
+    }
+
+
+button:hover {
+    background-color: #4a4b26;
 }
 
 @media (max-width:1440px) {
