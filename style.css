@@ -34,9 +34,9 @@ body {
 .horario{
     margin-top: 4rem;
 }
-.horario li{
-    margin-bottom: 1rem;
-}
+/* .horario li{
+  
+} */
 
 .wrap-text{
     margin-top: 2rem;
@@ -125,13 +125,29 @@ span.alegria{
     letter-spacing: 2px;
 }
 
+
+.container-imagen{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.container-imagen img {
+    max-width: 30%; /* Ajusta la imagen al contenedor */
+    height: auto; /* Mantiene la proporción */
+}
+
+
+
+
+
 /* Con el Heigth el espacio entre secciones! revisar acá cualquier cosa */
    
 
 section {
     height: 100vh;
     display: flex;
-    flex-direction: column; /* Cambia a 'row' si prefieres que estén en una fila */
+    flex-direction: column;
     align-items: center; /* Centra horizontalmente */
     justify-content: center; /* Centra verticalmente */
     text-align: center; /* Alinea el texto al centro */
